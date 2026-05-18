@@ -38,7 +38,7 @@
 
         <mandatory>false</mandatory>
 
-        <max_length>40</max_length>
+        <max_length>100</max_length>
 
         <name>u_ai_table</name>
 
