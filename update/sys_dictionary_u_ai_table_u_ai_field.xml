@@ -1,45 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_dictionary">
+
     <sys_dictionary action="INSERT_OR_UPDATE">
 
         <name>u_ai_table</name>
+
         <element>u_ai_field</element>
+
         <column_name>u_ai_field</column_name>
+
         <column_label>AI Field</column_label>
 
-        <sys_id>b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e</sys_id>
-        <sys_class_name>sys_dictionary</sys_class_name>
+        <internal_type display_value="String">
+            string
+        </internal_type>
 
-        <sys_created_by>system</sys_created_by>
+        <max_length>100</max_length>
+
+        <mandatory>false</mandatory>
+
+        <read_only>false</read_only>
+
+        <active>true</active>
+
+        <sys_id>b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e</sys_id>
+
+        <sys_scope display_value="demo1">
+            2373c36b97b443509a24fefce053afab
+        </sys_scope>
+
+        <sys_package display_value="demo1">
+            2373c36b97b443509a24fefce053afab
+        </sys_package>
+
+        <sys_update_name>
+            sys_dictionary_u_ai_table_u_ai_field
+        </sys_update_name>
+
+        <sys_name>u_ai_field</sys_name>
+
+        <sys_created_by>admin</sys_created_by>
+        <sys_updated_by>admin</sys_updated_by>
+
         <sys_created_on>2026-05-18 12:50:00</sys_created_on>
-        <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2026-05-18 12:50:00</sys_updated_on>
 
         <sys_mod_count>0</sys_mod_count>
 
-        <sys_scope display_value="demo1">2373c36b97b443509a24fefce053afab</sys_scope>
-        <sys_package display_value="demo1">2373c36b97b443509a24fefce053afab</sys_package>
-
-        <active>true</active>
-        <mandatory>false</mandatory>
-        <read_only>false</read_only>
-
-        <internal_type display_value="String">string</internal_type>
-
-        <max_length>100</max_length>
-
-        <display>false</display>
-        <primary>false</primary>
-        <unique>false</unique>
-
-        <array>false</array>
-        <array_denormalized>false</array>
-
-        <audit>false</audit>
-        <text_index>false</text_index>
-
-        <sys_name>u_ai_field</sys_name>
-        <sys_update_name>sys_dictionary_u_ai_table_u_ai_field</sys_update_name>
-
     </sys_dictionary>
+
 </record_update>
