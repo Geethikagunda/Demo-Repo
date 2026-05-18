@@ -1,48 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_db_object">
-
+<record_update>
     <sys_db_object action="INSERT_OR_UPDATE">
-
-        <name>u_ai_table</name>
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>true</configuration_access>
+        <create_access>true</create_access>
+        <delete_access>true</delete_access>
+        <extension_model>none</extension_model>
+        <is_extendable>false</is_extendable>
         <label>AI Table</label>
         <label_plural>AI Tables</label_plural>
-
-        <sys_id>a1b2c3d4e5f67890abcdef123456789</sys_id>
-
-        <sys_scope display_value="demo1">
-            2373c36b97b443509a24fefce053afab
-        </sys_scope>
-
-        <sys_package display_value="demo1">
-            2373c36b97b443509a24fefce053afab
-        </sys_package>
-
-        <sys_update_name>
-            sys_db_object_u_ai_table
-        </sys_update_name>
-
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_ai_table</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>true</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-18 07:41:23</sys_created_on>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>u_ai_table</sys_name>
 
-        <access>public</access>
+        <sys_package display_value="Demo" source="x_1740101_demo">
+            7941f6a3c374435095a67d0ed4013162
+        </sys_package>
 
-        <create_access>true</create_access>
-        <read_access>true</read_access>
-        <update_access>true</update_access>
-        <delete_access>true</delete_access>
+        <sys_policy/>
+        
+        <sys_scope display_value="Demo">
+            7941f6a3c374435095a67d0ed4013162
+        </sys_scope>
 
-        <is_extendable>false</is_extendable>
-
-        <super_class/>
-        <extension_name/>
-
-        <sys_created_by>admin</sys_created_by>
+        <sys_update_name>sys_db_object_u_ai_table</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-18 07:41:24</sys_updated_on>
 
-        <sys_created_on>2026-05-18 12:50:00</sys_created_on>
-        <sys_updated_on>2026-05-18 12:50:00</sys_updated_on>
-
-        <sys_mod_count>0</sys_mod_count>
-
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>false</ws_access>
     </sys_db_object>
-
 </record_update>
